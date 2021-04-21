@@ -1,0 +1,60 @@
+.tableHeader {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.custRow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #1eb500;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.custRow p {
+    font-size: 24px;
+    font-family: 'Dela Gothic One', cursive;
+    border-right: 1px solid black;
+    color :floralwhite;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+.custRow p:nth-child(1) {
+    width: 10%;
+}
+.custRow p:nth-child(2) {
+    width: 20%;
+}
+.custRow p:nth-child(3) {
+    width: 25%;
+}
+.custRow p:nth-child(4) {
+    width: 20%;
+}
+.custRow p:nth-child(5) {
+    width: 25%;
+    border: none;
+}
+
+@media (max-width :500px) {
+    .custRow p {
+        font-size: 14px;
+    }
+    .custRow p:nth-child(1) {
+        width: 8%;
+    }
+    .custRow p:nth-child(2) {
+        width: 16%;
+    }
+    .custRow p:nth-child(3) {
+        width: 31%;
+    }
+    .custRow p:nth-child(4) {
+        width: 25%;
+    }
+    .custRow p:nth-child(5) {
+        width: 20%;
+        border: none;
+    }
+}
